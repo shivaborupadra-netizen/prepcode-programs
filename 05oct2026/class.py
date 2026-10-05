@@ -1,0 +1,6 @@
+students=int(input('enter a number'))
+bench_capacity=int(input('enter a number'))
+benches_occupied_by_students=(students//bench_capacity)
+left_over_students=students-(benches_occupied_by_students*bench_capacity)
+print('benches:',benches_occupied_by_students)
+print('students left:',left_over_students)

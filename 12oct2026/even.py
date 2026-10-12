@@ -1,2 +1,3 @@
-for i in ranga(0,100,1)
-print(i)
+i=int(input())
+for i in range(1,i,2):
+ print(i)

@@ -1,3 +1,6 @@
-string='hello'
-capitalize=''
-capitalize()
+age=int(input())
+try:
+ if age<0 :
+    raise ValueError('age cannot be negative')
+ print('valid age',age)  
+ 
